@@ -1,0 +1,25 @@
+body {
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    z-index: 1;
+	/*height: 600px;*/
+}
+canvas {
+    padding:0;
+    margin:0;
+}
+div.btnbg {
+    position:fixed;
+    left:0;
+    top:0;
+    box-shadow: 0px 0px 15px #ccc;
+}
+div.btnbg:hover{
+    text-shadow: 0px 0px 3px #ccc;
+    box-shadow: 0px 0px 20px #ccc;
+}
+.carousel{
+    position: absolute;
+    z-index: 999;
+}
